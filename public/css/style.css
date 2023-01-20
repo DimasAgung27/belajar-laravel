@@ -1,0 +1,37 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button .btn-about-me {
+    background-color: blue;
+    border: 4px solid blue;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+
+.button .btn-contact-me {
+    border: 4px solid blue;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000000;
+}
